@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mainContainer {
+  height: 764px;
+  width: 760px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+img {
+  height: 570px;
+  width: 760px;
+}
+
+.stateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stateItem {
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 15px;
+}
+
+.comandContainer {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  height: 96px;
+}
+
+.comandItem {
+  width: 25%;
+  height: 25px;
+}
+
+.textContainer {
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  height: 96px;
+  position: relative;
+}
+
+.textItem {
+  color: #fff;
+  font-size: 20px;
+}
+
+.warning {
+  color: red;
+}
+
+.next {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
